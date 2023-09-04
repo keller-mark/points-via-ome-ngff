@@ -1,0 +1,11 @@
+name: point-cloud-env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - jupyter
+  - jupyterlab
+  - pip
+  - pip:
+    - spatialdata[extra]
